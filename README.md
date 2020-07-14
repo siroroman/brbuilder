@@ -18,7 +18,7 @@ It is distributed as Swift Package Manager package. To install run following:
 ### Configuration:
 1. Save bitrise token with `$ brbuilder token < bitrise token >`. 
 2. Get list of apps associated with your account and copy slug of selected app. `$ brbuilder apps`
-3. Set slug with `brbuilder slug < slug >` 
+3. Set slug with `$ brbuilder slug < slug >` 
 
 Now you can start your first workflow with:
 `$ brbuilder build < workflowID > < branch > -t` 
