@@ -7,13 +7,10 @@ BRbuilder is simple CLI  tool primary designed to start Bitrise build with given
 
 ### Instalation:
 
-`$ git clone https://github.com/siroroman/brbuilder.git`
-
-`$ swift build -c release`
-
-`$ cd .build/release`
-
-`$ cp -f BRBuilder/usr/local/bin/brbuilder`
+`git clone https://github.com/siroroman/brbuilder.git`
+`swift build -c release`
+`cd .build/release`
+`cp -f BRBuilder /usr/local/bin/brbuilder`
 
 
 ### Configuration:
