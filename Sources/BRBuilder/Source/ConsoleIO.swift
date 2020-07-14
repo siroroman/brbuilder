@@ -29,7 +29,7 @@ class ConsoleIO {
         writeMessage("\n\(Command.token.rawValue) < token > saves bitrise token to key chain")
         writeMessage("\n\(Command.user.rawValue) returns bitrise account details")
         writeMessage("\n\(Command.apps.rawValue) returns list of apps for acount")
-        writeMessage("\n\(Command.slug.rawValue) return selected app slug, \(Command.slug.rawValue) < slug > saves selected app slug. Use command apps to obtain app slug.")
+        writeMessage("\n\(Command.slug.rawValue) returns selected app slug, \(Command.slug.rawValue) < slug > saves selected app slug. Use command apps to obtain app slug.")
         writeMessage("\n\(Command.workflows.rawValue) < slug > returns list of workflows for given app. Use command apps to obtain app slug.")
         writeMessage("\n\(Command.build.rawValue) < workflowID > < branch > starts workflow on given branch. -t modifier adds tag to latest commit on given branch")
     }
