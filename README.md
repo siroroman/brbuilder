@@ -7,6 +7,8 @@ BRbuilder is simple CLI  tool primary designed to start Bitrise build with given
 
 ### Instalation:
 
+It is distributed as Swift Package Manager package. To install run following: 
+
 `git clone https://github.com/siroroman/brbuilder.git`
 
 `swift build -c release`
